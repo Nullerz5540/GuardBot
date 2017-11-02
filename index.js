@@ -9,7 +9,8 @@ var bot = new Discord.Client();
 var util = [
     "-help Brings up this panel.",
     "-helpserver Get the invite to the help server.",
-    "-userinfo @[tag] Get the info of a user."
+    "-userinfo @[tag] Get the info of a user.",
+    "-invitebot Get the invite link for the bot"
 ];
 var fun = [
     "-8ball Ask me any question, I shall answer!",
@@ -70,6 +71,8 @@ bot.on("message", function(message) {
     let argu = message.content.split(" ").slice(1);
 
     switch (args[0].toLowerCase()) {
+        case "invitebot":
+            message.channel.send("https://discordapp.com/oauth2/authorize?client_id=371407159939956737&scope=bot&permissions=2146958591")
         case "unban":
             let adminban = message.guild.roles.find("name", "Administrator")
             let iduser = args.slice(1).join(' ');

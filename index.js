@@ -73,6 +73,7 @@ bot.on("message", function(message) {
     switch (args[0].toLowerCase()) {
         case "invitebot":
             message.channel.send("https://discordapp.com/oauth2/authorize?client_id=371407159939956737&scope=bot&permissions=2146958591")
+            break;
         case "unban":
             let adminban = message.guild.roles.find("name", "Administrator")
             let iduser = args.slice(1).join(' ');

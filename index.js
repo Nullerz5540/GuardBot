@@ -157,7 +157,7 @@ bot.on("message", function(message) {
             var embed = new Discord.RichEmbed()
                 .setAuthor("Guardian - Commands")
                 .setColor(0x800080)
-                .setFooter("Guardian by NulledRetry#5540 - V1")
+                .setFooter("Guardian by NulledRetry#5540 - V2 - Online!")
                 .setThumbnail(message.author.avatarURL)
                 .addField("----FUN COMMANDS----", fun, true)
                 .addField("----ADMIN COMMANDS----", admincmds, true)

@@ -49,11 +49,12 @@ bot.on("ready", function() {
 });
 
 bot.on("guildMemberAdd", function(member) {
-    //const enterdm = new Discord.RichEmbed()
-    //.setTimestamp()
-    //.setColor(0x00FF00)
-    //.setDescription("Welcome to the server: " + member.guild + member)
-    //message.mentions.users.first().send(enterdm)
+    const welcome = new Discord.RichEmbed()
+    .setTitle('Welcome Friend!!')
+    .setTimestamp()
+    .setColor(0x00FF00)
+    .setFooter("Enjoy your time here!")
+    member.send(welcome)
 });
 
 //Regular Command Table

@@ -1,2 +1,0 @@
-# GuardBot
-Beep Boop

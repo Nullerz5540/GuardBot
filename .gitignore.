@@ -1,4 +1,4 @@
 const Discord = require("discord.js");
-const TOKEN = "MzcxNDA3MTU5OTM5OTU2NzM3.DM4FVg.cbQzqxkKrF3ptE-eQq3rRCKXIUo";
+const TOKEN = "MzcxNDA3MTU5OTM5OTU2NzM3.DPyOZg.aWTMBUWWJmuPYrvypIfcKb13kk4";
 
 bot.login(TOKEN);

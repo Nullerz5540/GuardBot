@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const TOKEN = "MzcxNDA3MTU5OTM5OTU2NzM3.DM4FVg.cbQzqxkKrF3ptE-eQq3rRCKXIUo";
 const PREFIX = "-";
 
 const chatfix = ""; 
@@ -318,5 +317,3 @@ bot.on("message", function(message) {
             
     }
 });
-
-bot.login(TOKEN);
